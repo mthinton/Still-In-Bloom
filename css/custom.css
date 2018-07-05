@@ -1,3 +1,113 @@
-.spad {
-  padding-top: 30px;
+header {
+  display: flex;
+  background-color: white
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    align-items: center;
+    /*box-shadow: 0 0 25px 0 black;*/
+    justify-content: center;
+}
+
+header * {
+  display: inline
+}
+
+body {
+  font-family: sans-serif;
+  margin-top: 80px;
+
+}
+
+header img {
+  height: 80px;
+    margin-left: 40px
+}
+
+header li {
+  margin: 20px;
+  font-weight: bold;
+}
+
+header li a {
+  text-decoration: none;
+  color: black
+}
+
+a:visited {
+  text-decoration: none
+}
+
+
+/*.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}*/
+
+/*.navbar li {
+  padding-left: 10px;
+}*/
+
+
+.intro {
+  display: flex;
+  vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  margin-bottom: 100px;
+  background-color: black;
+  color: white
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 125px;
+  line-height: 1.8
+}
+
+.investmentIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.investmentDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.invest {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    line-height: 1.9;
+    padding-top: 40px
+}
+
+.poster {
+  height: 700px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.producerStatement {
+  overflow: hidden
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }

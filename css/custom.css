@@ -56,31 +56,30 @@ a:visited {
 
 .intro {
   display: flex;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   padding-top: 25px;
   padding-bottom: 25px;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   background-color: black;
-  color: white
+  color: white;
+  width: 400px
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-top: 125px;
-  line-height: 1.8
+  line-height: 1.8;
 }
 
-.investmentIntro {
+.investment-intro {
   display: flex;
   flex-direction: column;
   align-items: center
 }
-.investmentDiv {
+.investment-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center
 }
 
@@ -89,22 +88,29 @@ a:visited {
     flex-direction: column;
     padding-left: 50px;
     line-height: 1.9;
-    padding-top: 40px
 }
 
 .poster {
-  height: 700px;
+  height: 400px;
+  width: 200px;
+}
+
+.synopsis {
+  padding-left: 10px;
 }
 
 .video {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
+  padding-left: 10px;
   align-items: center;
+  width: 400px
 }
 
-.producerStatement {
-  overflow: hidden
+.producer-statement {
+  overflow: hidden;
+  padding-left: 10px
 }
 .contactForm {
   display: flex;

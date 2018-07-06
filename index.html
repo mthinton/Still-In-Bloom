@@ -3,15 +3,14 @@
 <head>
 	<title>Still In Bloom | Film</title>
 	<meta charset="UTF-8">
-	<!-- <meta name="description" content="HALO photography portfolio template">
-	<meta name="keywords" content="photography, portfolio, onepage, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<meta name="description" content="Still In Bloom Film Page">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+	<link href="img/favicon.ico" rel="shortcut icon">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -24,65 +23,87 @@
 	</head>
 
 	<body>
-	  <header id="navbar">
-	    <nav>
-	      <ul >
-	        <li><a href="#navbar">Home</a></li>
-	        <li><a href="#synopsis">Synopsis</a></li>
-	        <li><a href="#portfolio">Portfolio</a></li>
-	        <li><a href="#producer-statement">Producer's Statement</a></li>
-	        <li><a href="#contact">Contact</a></li>
-	      </ul>
-	    </nav>
+	  <header>
+
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#synopsis">Synopsis</a>
+				      </li>
+							<li class="nav-item">
+				        <a class="nav-link" href="#invest">Invest</a>
+				      </li>
+							<li class="nav-item">
+				        <a class="nav-link" href="#producer-statement">Producer's Statement</a>
+				      </li>
+							<li class="nav-item">
+				        <a class="nav-link" href="#producer-statement">Contact</a>
+				      </li>
+				      <!-- <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				  				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#">Disabled</a>
+				      </li> -->
+				    </ul>
+				    <!-- <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				    </form> -->
+				  </div>
+				</nav>
 	  </header>
 
 	  <main class="site-main">
-	  <section id="intro">
-	    <div class="intro">
-	      <img class="poster" src="./img/GML_POSTER.jpg">
-	  </div>
-		<div class="info">
-	<h1>Still In Bloom</h1>
-	<p>Length: Feature, approx. 90 mins<br>
-		 Shooting Format: RED Weapon, 8K resolution<br>
-		 Writer/Director: Christopher Carson Emmons<br>
-		 Producer: Christopher Carson Emmons<br>
-		 Cinematographer: Nathaniel Haban
-	</p>
-</div>
-	  </section>
 
-	  <section>
-	    <div class="investment-intro">
-	    <h3>INVEST IN <span style="color: lightblue">STILL IN BLOOM</span></h3>
-	    <h4>BECOME AN EXECUTIVE PRODUCER</h4>
-	  </div>
-	    <div class="investment-div">
-	    <img src="./img/awardsPhoto.png" width="375" height="450" vspace="5" hspace="5">
-	    <div class="invest">
-	    <ul class="invest">
-	      <li>With Investment as low as $1000</li>
-	      <li>Earn Good ROIs</li>
-	      <li>Get Full Access to Production Set</li>
-	      <li>Get Inveted to Premiere, Red Carpet, After-Party</li>
-	      <li>Gain Celebrity Status</li>
-	    </ul>
-	    <h4>BE PART OF OUR SUCCESS</h4>
-	    <button>Click HERE TO INVEST</button>
+	  <section class="intro">
+			<div class="container">
+	    <div class="row">
+				<div class="image-div col-sm-6">
+	      <img class="poster" src="./img/GML_POSTER.jpg">
+			</div>
+				<div class="info col-sm-6">
+			<h1>Still In Bloom</h1>
+			<p>Length: Feature, approx. 90 mins<br>
+				 Shooting Format: RED Weapon, 8K resolution<br>
+				 Writer/Director: Christopher Carson Emmons<br>
+				 Producer: Ramesh Anthony<br>
+				 Cinematographer: Nathaniel Haban
+			</p>
+		</div>
 	  </div>
 	</div>
 	  </section>
 
-	  <section class="synopsis">
-	    <h3 id="synopsis">Synopsis</h3>
-	    <p>Artistically	inclined Lily struggles	to make it professionally	as a mime, to the chagrin of her
+	<div class="container">
+		<section class="row synopsis">
+			<div class="col-sm-12">
+			<h3 id="synopsis">Synopsis</h3>
+			<p>Artistically	inclined Lily struggles	to make it professionally	as a mime, to the chagrin of her
 	single father, Miles, who’s just been laid off. Miles’ girlfriend,	Margot, agrees to employ a
 	reluctant	Lily part time at her company	to help with the bills . Lily’s disapproval	of Margot causes
 	a rift between	her and her father, and his desire for Margot to move in with them further
 	complicating	the dynamic.
 	While miming on the street corner one day for tips, Lily is approached	by a documentary
 	filmmaker	named Leah, who proposes	the concept of creating a documentary	about her. Lily
-	accepts,	and before long falls for Leah in the process of creating	the film. Their personal
+	accepts,	and before long falls for Leah in` the process of creating	the film. Their personal
 	relationship	deepens,	complicating	their working relationship. One night, Lily walks in on Leah
 	with a boy, then goes home feeling betrayed,	only to hear from Margot that Miles has just died
 	in a freak accident.
@@ -93,21 +114,76 @@
 	Margot soon books a tour in Paris, a longtime	dream of Lily’s, just as she begins reconnecting
 	with Leah, causing her to have to choose what’s most important	to her in life, flowering	love or
 	her blossoming	career.
-	</p>
-	  </section>
-	  <section id="portfolio" class="video">
-	    <h3>The Survivor -  A short film by Christopher Carson Emmons</h3>
-	    <iframe width="390" height="245" src="https://www.youtube.com/embed/mr3AiUpjbAY"
-	    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</p>
+		</div>
+	</section>
+</div>
 
-	    <h3>Haban Media Works - Demo Reel</h3>
-	    <iframe src="https://player.vimeo.com/video/142760811" width="390" height="245"
+<section id="invest">
+	<div class="investment-heading">
+		<div class="container">
+			<div class="row">
+	    	<div class="investment-intro col-sm-12">
+	    		<h3>INVEST IN <span style="color: white">STILL IN BLOOM</span></h3>
+	   			<h4>BECOME AN EXECUTIVE PRODUCER</h4>
+			</div>
+	  </div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+	    <div class="investment-div col-sm-6">
+	    <img src="./img/awardsPhoto.png" vspace="5" hspace="5">
+		</div>
+	    <div class="invest col-sm-6">
+	    <ul>
+	      <li>With Investment as low as $1000</li>
+	      <li>Earn Good ROIs</li>
+	      <li>Get Full Access to Production Set</li>
+	      <li>Get Inveted to Premiere, Red Carpet, After-Party</li>
+	      <li>Gain Celebrity Status</li>
+	    </ul>
+			<div class="invest-button-area col-sm-6">
+	    <h5>BE PART OF OUR SUCCESS</h5>
+			<button>
+  			<span>Press Me!</span>
+			</button>
+					</div>
+					</div>
+				</div>
+	  	</div>
+</section>
+
+<section class="portfolio row">
+	<div class="col-sm-12">
+		<h3 style="padding-bottom: 10px">The Survivor - A film directed by Christopher Carson Emmons</h3>
+	</div>
+	<div class="survivor col-sm-12">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mr3AiUpjbAY" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-sm-12">
+		<h3 style="padding-bottom: 10px; margin-top: 25px">2015 Haban Media Works Demo-Reel</h3>
+	</div>
+		<div class="demo col-sm-12">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/142760811" allowfullscreen></iframe>
+			</div>
+		</div>
+</section>
+
+	    <!-- <h3>Haban Media Works - Demo Reel</h3>
+	    <iframe src="https://player.vimeo.com/video/142760811" width="400" height="245"
 	    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	<p><a href="https://vimeo.com/142760811">Nathaniel F. Haban 2015 Demo Reel</a> from
 	  <a href="https://vimeo.com/user44962795">Haban Media Works</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-	  </section>
+		</div>
+	</div> -->
 
-	  <section id="producer-statement" class="producer-statement">
+		<div class="container">
+	  <section id="producer-statement" class=" row producer-statement">
+			<div class="col-sm12">
 	    <h3 id="producerstatement" class="sp-title">Producer's Statement</h3>
 	    <p style = "font-size:19px">I was instantly	drawn to the subtlety and truthfulness	of the
 	characters	when I first read the screenplay	. It was right then
@@ -134,7 +210,9 @@
 	once, so I want it to be bighearted,	for a big audience,
 	progressive	and innovative,	and like Lily – deeply wanting to
 	connect with people through her art . This is a story for you </p>
+			</div>
 	  </section>
+	</div>
 
 	<section id="contactForm" class="contact-section set-bg spad" data-setbg="img/contact-bg.jpg">
 		<div class="container-fluid contact-warp">
@@ -196,5 +274,8 @@
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 </html>

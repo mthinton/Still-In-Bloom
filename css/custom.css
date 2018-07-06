@@ -1,119 +1,77 @@
-header {
+.navbar-nav {
   display: flex;
-  background-color: white
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    align-items: center;
-    /*box-shadow: 0 0 25px 0 black;*/
-    justify-content: center;
-}
-
-header * {
-  display: inline
-}
-
-body {
-  font-family: sans-serif;
-  margin-top: 80px;
-
-}
-
-header img {
-  height: 80px;
-    margin-left: 40px
-}
-
-header li {
-  margin: 20px;
-  font-weight: bold;
-}
-
-header li a {
-  text-decoration: none;
-  color: black
-}
-
-a:visited {
-  text-decoration: none
-}
-
-
-/*.navbar {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
   justify-content: center;
-}*/
-
-/*.navbar li {
-  padding-left: 10px;
-}*/
-
+  width: 100%
+}
 
 .intro {
-  display: flex;
-  /*vertical-align: middle;*/
-  padding-top: 25px;
-  padding-bottom: 25px;
-  justify-content: center;
-  margin-bottom: 50px;
-  background-color: black;
-  color: white;
-  width: 400px
+  background-image: url('../img/black_paper.png')
 }
 
 .info {
+  padding-top: 75px;
+}
+
+.info p {
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: 60px
+  }
+
+  .synopsis {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px
+  }
+
+  .investment-heading {
+    background-color: lightblue
+  }
+
+  .investment-heading h3, h4{
+    text-align: center;
+  }
+
+  .invest {
+    padding-top: 100px;
+    line-height: 35px
+    }
+
+    .invest-button-area {
+      margin-top: 25px;
+      text-align: left;
+      margin-bottom: 25px
+    }
+
+    button {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color:lightyellow;
+  color: black;
+  padding: 0 10px;
+  font-family: 'Oswald', sans-serif;
+  outline: 0;
+}
+button:hover {
+  cursor: pointer;
+  -webkit-animation: moveButton 0.4s ease forwards;
+          animation: moveButton 0.4s ease forwards;
+}
+
+.portfolio {
+  margin-top:100px
+}
+
+.survivor {
   display: flex;
-  flex-direction: column;
-  line-height: 1.8;
+  justify-content: center;
+  margin-bottom: 50px
 }
 
-.investment-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center
-}
-.investment-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center
-}
-
-.invest {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    line-height: 1.9;
-}
-
-.poster {
-  height: 400px;
-  width: 200px;
-}
-
-.synopsis {
-  padding-left: 10px;
-}
-
-.video {
-  display: flex;
-  flex-direction: column;
-  margin-top: 25px;
-  padding-left: 10px;
-  align-items: center;
-  width: 400px
-}
-
-.producer-statement {
-  overflow: hidden;
-  padding-left: 10px
-}
-.contactForm {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
+.demo {
+  background-color: black;
 }

@@ -1,27 +1,35 @@
 .navbar-nav {
-  display: flex;
   justify-content: center;
-  width: 100%
+  width: 100%;
 }
 
 .intro {
-  background-image: url('../img/black_paper.png')
-}
-
-.info {
-  padding-top: 75px;
+  background-image: url('../img/black_paper.png');
+  padding: 25px;
 }
 
 .info p {
     font-size: 24px;
-    padding-top: 50px;
-    line-height: 60px
+    line-height: 1.5;
+  }
+
+  .synopsis-heading {
+    display: flex;
+    height: 60px;
+    background-color: gold;
+    margin-top: 50px;
+    padding-left: 75px;
+    align-items: center
   }
 
   .synopsis {
     padding-left: 25px;
     padding-top: 25px;
-    padding-bottom: 25px
+    padding-bottom: 25px;
+  }
+
+  .synopsis p {
+    font-size: 19px;
   }
 
   .investment-heading {
@@ -63,15 +71,29 @@ button:hover {
 }
 
 .portfolio {
-  margin-top:100px
+  margin-top:100px;
 }
 
 .survivor {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .demo {
   background-color: black;
 }
+
+/*---------------------Responsive----------------*/
+
+/*@media screen and (max-width: 1000px) {
+  .info p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .info h1 {
+    font-size: 24px;
+  }
+}*/

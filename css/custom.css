@@ -10,18 +10,30 @@
 
 .intro {
   background-image: url('../img/black_paper.png');
-  padding: 30px 0;
+  padding: 30px 30px;
 }
 
 .info p {
-    font-size: 24px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.625;
+    padding: 100px 0;
+  }
+
+  .info h2 {
+    color: white;
+    text-decoration: underline;
+    padding-top: 25px;
   }
 
   .heading {
     background-color: gold;
     margin: 40px 0;
     padding-left: 75px;
+  }
+
+  .heading-without-padding {
+    background-color: gold;
+    margin: 40px 0;
   }
 
   .synopsis p {
@@ -33,7 +45,7 @@
   }
 
   .invest {
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 24px;
     }
 
@@ -54,6 +66,7 @@
     transition: all .3s ease-in-out;
     margin: 0 auto;
     display: block;
+    margin-bottom: 30px;
   }
 
   .btn-primary:hover {
@@ -68,24 +81,27 @@
   background-color: black;
 }
 
-.filmography {
+/*.filmography {
   background-image: url("../img/zwartevilt.png");
-}
+}*/
 
 .filmography h4 {
-  color: white;
   padding: 15px 0;
 }
 
 /*---------------------Responsive----------------*/
 
-/*@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .info p {
     font-size: 16px;
+    padding-top: 50px;
+  }
+  .info h2 {
+    padding-top: 50px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
   .info h1 {
     font-size: 24px;
   }

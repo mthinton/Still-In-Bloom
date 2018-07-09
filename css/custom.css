@@ -60,6 +60,11 @@
       text-align: center;
     }
 
+    .investment-div {
+      padding-right: 0px;
+      max-width: 500px;
+    }
+
   .btn-primary {
     background-color: #891F0F;
     color: white;

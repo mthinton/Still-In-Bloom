@@ -39,7 +39,6 @@
   .synopsis p {
     font-size: 19px;
   }
-
   .investment-section{
     background-image: url('../img/qbkls.png');
   }
@@ -62,6 +61,7 @@
 
     .investment-div {
       padding-right: 0px;
+      padding-bottom: 40px;
       max-width: 500px;
     }
 
